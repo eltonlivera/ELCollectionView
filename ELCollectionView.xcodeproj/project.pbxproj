@@ -24,7 +24,7 @@
 		FE8B9E271AE6FFFA0054F986 /* AAPLComposedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DEC1AE6FFF90054F986 /* AAPLComposedDataSource.m */; };
 		FE8B9E281AE6FFFA0054F986 /* AAPLComposedDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DED1AE6FFF90054F986 /* AAPLComposedDataSource_Private.h */; };
 		FE8B9E291AE6FFFA0054F986 /* AAPLComposedDataSource_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DEE1AE6FFF90054F986 /* AAPLComposedDataSource_Private.m */; };
-		FE8B9E2A1AE6FFFA0054F986 /* AAPLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DEF1AE6FFF90054F986 /* AAPLDataSource.h */; };
+		FE8B9E2A1AE6FFFA0054F986 /* AAPLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DEF1AE6FFF90054F986 /* AAPLDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E2B1AE6FFFA0054F986 /* AAPLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF01AE6FFF90054F986 /* AAPLDataSource.m */; };
 		FE8B9E2C1AE6FFFA0054F986 /* AAPLDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF11AE6FFF90054F986 /* AAPLDataSource_Private.h */; };
 		FE8B9E2D1AE6FFFA0054F986 /* AAPLSegmentedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF21AE6FFF90054F986 /* AAPLSegmentedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,14 +37,14 @@
 		FE8B9E341AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFA1AE6FFF90054F986 /* AAPLCollectionViewGridLayoutAttributes.h */; };
 		FE8B9E351AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DFB1AE6FFF90054F986 /* AAPLCollectionViewGridLayoutAttributes.m */; };
 		FE8B9E361AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFC1AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes_Private.h */; };
-		FE8B9E371AE6FFFA0054F986 /* AAPLLayoutMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFD1AE6FFFA0054F986 /* AAPLLayoutMetrics.h */; };
+		FE8B9E371AE6FFFA0054F986 /* AAPLLayoutMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFD1AE6FFFA0054F986 /* AAPLLayoutMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E381AE6FFFA0054F986 /* AAPLLayoutMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DFE1AE6FFFA0054F986 /* AAPLLayoutMetrics.m */; };
 		FE8B9E391AE6FFFA0054F986 /* AAPLLayoutMetrics_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFF1AE6FFFA0054F986 /* AAPLLayoutMetrics_Private.h */; };
 		FE8B9E3A1AE6FFFA0054F986 /* AAPLAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E011AE6FFFA0054F986 /* AAPLAction.h */; };
 		FE8B9E3B1AE6FFFA0054F986 /* AAPLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E021AE6FFFA0054F986 /* AAPLAction.m */; };
-		FE8B9E3C1AE6FFFA0054F986 /* AAPLContentLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E031AE6FFFA0054F986 /* AAPLContentLoading.h */; };
+		FE8B9E3C1AE6FFFA0054F986 /* AAPLContentLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E031AE6FFFA0054F986 /* AAPLContentLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E3D1AE6FFFA0054F986 /* AAPLContentLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E041AE6FFFA0054F986 /* AAPLContentLoading.m */; };
-		FE8B9E3E1AE6FFFA0054F986 /* AAPLStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E051AE6FFFA0054F986 /* AAPLStateMachine.h */; };
+		FE8B9E3E1AE6FFFA0054F986 /* AAPLStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E051AE6FFFA0054F986 /* AAPLStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E3F1AE6FFFA0054F986 /* AAPLStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E061AE6FFFA0054F986 /* AAPLStateMachine.m */; };
 		FE8B9E401AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E071AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.h */; };
 		FE8B9E411AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E081AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.m */; };
