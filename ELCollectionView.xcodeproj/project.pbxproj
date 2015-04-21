@@ -18,7 +18,7 @@
 		FE8B9E211AE6FFFA0054F986 /* UICollectionView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DE51AE6FFF90054F986 /* UICollectionView+Helpers.m */; };
 		FE8B9E221AE6FFFA0054F986 /* UIView+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DE61AE6FFF90054F986 /* UIView+Helpers.h */; };
 		FE8B9E231AE6FFFA0054F986 /* UIView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DE71AE6FFF90054F986 /* UIView+Helpers.m */; };
-		FE8B9E241AE6FFFA0054F986 /* AAPLBasicDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DE91AE6FFF90054F986 /* AAPLBasicDataSource.h */; };
+		FE8B9E241AE6FFFA0054F986 /* AAPLBasicDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DE91AE6FFF90054F986 /* AAPLBasicDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E251AE6FFFA0054F986 /* AAPLBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DEA1AE6FFF90054F986 /* AAPLBasicDataSource.m */; };
 		FE8B9E261AE6FFFA0054F986 /* AAPLComposedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DEB1AE6FFF90054F986 /* AAPLComposedDataSource.h */; };
 		FE8B9E271AE6FFFA0054F986 /* AAPLComposedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DEC1AE6FFF90054F986 /* AAPLComposedDataSource.m */; };
@@ -29,7 +29,7 @@
 		FE8B9E2C1AE6FFFA0054F986 /* AAPLDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF11AE6FFF90054F986 /* AAPLDataSource_Private.h */; };
 		FE8B9E2D1AE6FFFA0054F986 /* AAPLSegmentedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF21AE6FFF90054F986 /* AAPLSegmentedDataSource.h */; };
 		FE8B9E2E1AE6FFFA0054F986 /* AAPLSegmentedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF31AE6FFF90054F986 /* AAPLSegmentedDataSource.m */; };
-		FE8B9E2F1AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF51AE6FFF90054F986 /* AAPLCollectionViewGridLayout.h */; };
+		FE8B9E2F1AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF51AE6FFF90054F986 /* AAPLCollectionViewGridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E301AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF61AE6FFF90054F986 /* AAPLCollectionViewGridLayout.m */; };
 		FE8B9E311AE6FFFA0054F986 /* AAPLCollectionViewGridLayout_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF71AE6FFF90054F986 /* AAPLCollectionViewGridLayout_Internal.h */; };
 		FE8B9E321AE6FFFA0054F986 /* AAPLCollectionViewGridLayout_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF81AE6FFF90054F986 /* AAPLCollectionViewGridLayout_Internal.m */; };
@@ -50,7 +50,7 @@
 		FE8B9E411AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E081AE6FFFA0054F986 /* AAPLSwipeToEditStateMachine.m */; };
 		FE8B9E421AE6FFFA0054F986 /* AAPLCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E0A1AE6FFFA0054F986 /* AAPLCollectionViewController.h */; };
 		FE8B9E431AE6FFFA0054F986 /* AAPLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E0B1AE6FFFA0054F986 /* AAPLCollectionViewController.m */; };
-		FE8B9E441AE6FFFA0054F986 /* AAPLBasicCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E0D1AE6FFFA0054F986 /* AAPLBasicCell.h */; };
+		FE8B9E441AE6FFFA0054F986 /* AAPLBasicCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E0D1AE6FFFA0054F986 /* AAPLBasicCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E451AE6FFFA0054F986 /* AAPLBasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E0E1AE6FFFA0054F986 /* AAPLBasicCell.m */; };
 		FE8B9E461AE6FFFA0054F986 /* AAPLCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E0F1AE6FFFA0054F986 /* AAPLCollectionViewCell.h */; };
 		FE8B9E471AE6FFFA0054F986 /* AAPLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E101AE6FFFA0054F986 /* AAPLCollectionViewCell.m */; };
@@ -65,7 +65,7 @@
 		FE8B9E501AE6FFFA0054F986 /* AAPLSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E191AE6FFFA0054F986 /* AAPLSectionHeaderView.m */; };
 		FE8B9E511AE6FFFA0054F986 /* AAPLSegmentedHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E1A1AE6FFFA0054F986 /* AAPLSegmentedHeaderView.h */; };
 		FE8B9E521AE6FFFA0054F986 /* AAPLSegmentedHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E1B1AE6FFFA0054F986 /* AAPLSegmentedHeaderView.m */; };
-		FE8B9E551AE700260054F986 /* ELCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E531AE700260054F986 /* ELCollectionViewController.h */; };
+		FE8B9E551AE700260054F986 /* ELCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9E531AE700260054F986 /* ELCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E561AE700260054F986 /* ELCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E541AE700260054F986 /* ELCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
