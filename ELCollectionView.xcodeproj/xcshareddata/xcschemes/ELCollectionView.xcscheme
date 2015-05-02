@@ -20,20 +20,6 @@
                ReferencedContainer = "container:ELCollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE8B9DCC1AE6FFE10054F986"
-               BuildableName = "ELCollectionViewTests.xctest"
-               BlueprintName = "ELCollectionViewTests"
-               ReferencedContainer = "container:ELCollectionView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE8B9DCC1AE6FFE10054F986"
-               BuildableName = "ELCollectionViewTests.xctest"
-               BlueprintName = "ELCollectionViewTests"
-               ReferencedContainer = "container:ELCollectionView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE8B9DC11AE6FFE10054F986"
-            BuildableName = "ELCollectionView.framework"
-            BlueprintName = "ELCollectionView"
-            ReferencedContainer = "container:ELCollectionView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"

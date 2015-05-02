@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FE8B9DC81AE6FFE10054F986 /* ELCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DC71AE6FFE10054F986 /* ELCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE8B9DCE1AE6FFE10054F986 /* ELCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B9DC21AE6FFE10054F986 /* ELCollectionView.framework */; };
-		FE8B9DD51AE6FFE10054F986 /* ELCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DD41AE6FFE10054F986 /* ELCollectionViewTests.m */; };
 		FE8B9E1C1AE6FFFA0054F986 /* AAPLDataSource+Headers.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DE01AE6FFF90054F986 /* AAPLDataSource+Headers.h */; };
 		FE8B9E1D1AE6FFFA0054F986 /* AAPLDataSource+Headers.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DE11AE6FFF90054F986 /* AAPLDataSource+Headers.m */; };
 		FE8B9E1E1AE6FFFA0054F986 /* NSObject+KVOBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DE21AE6FFF90054F986 /* NSObject+KVOBlock.h */; };
@@ -29,12 +27,12 @@
 		FE8B9E2C1AE6FFFA0054F986 /* AAPLDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF11AE6FFF90054F986 /* AAPLDataSource_Private.h */; };
 		FE8B9E2D1AE6FFFA0054F986 /* AAPLSegmentedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF21AE6FFF90054F986 /* AAPLSegmentedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E2E1AE6FFFA0054F986 /* AAPLSegmentedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF31AE6FFF90054F986 /* AAPLSegmentedDataSource.m */; };
-		FE8B9E2F1AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF51AE6FFF90054F986 /* AAPLCollectionViewGridLayout.h */; };
+		FE8B9E2F1AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF51AE6FFF90054F986 /* AAPLCollectionViewGridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E301AE6FFFA0054F986 /* AAPLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF61AE6FFF90054F986 /* AAPLCollectionViewGridLayout.m */; };
 		FE8B9E311AE6FFFA0054F986 /* AAPLCollectionViewGridLayout_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF71AE6FFF90054F986 /* AAPLCollectionViewGridLayout_Internal.h */; };
 		FE8B9E321AE6FFFA0054F986 /* AAPLCollectionViewGridLayout_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DF81AE6FFF90054F986 /* AAPLCollectionViewGridLayout_Internal.m */; };
 		FE8B9E331AE6FFFA0054F986 /* AAPLCollectionViewGridLayout_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DF91AE6FFF90054F986 /* AAPLCollectionViewGridLayout_Private.h */; };
-		FE8B9E341AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFA1AE6FFF90054F986 /* AAPLCollectionViewGridLayoutAttributes.h */; };
+		FE8B9E341AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFA1AE6FFF90054F986 /* AAPLCollectionViewGridLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE8B9E351AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9DFB1AE6FFF90054F986 /* AAPLCollectionViewGridLayoutAttributes.m */; };
 		FE8B9E361AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFC1AE6FFFA0054F986 /* AAPLCollectionViewGridLayoutAttributes_Private.h */; };
 		FE8B9E371AE6FFFA0054F986 /* AAPLLayoutMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B9DFD1AE6FFFA0054F986 /* AAPLLayoutMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,21 +67,10 @@
 		FE8B9E561AE700260054F986 /* ELCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B9E541AE700260054F986 /* ELCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FE8B9DCF1AE6FFE10054F986 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE8B9DB91AE6FFE10054F986 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE8B9DC11AE6FFE10054F986;
-			remoteInfo = ELCollectionView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		FE8B9DC21AE6FFE10054F986 /* ELCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B9DC61AE6FFE10054F986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8B9DC71AE6FFE10054F986 /* ELCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELCollectionView.h; sourceTree = "<group>"; };
-		FE8B9DCD1AE6FFE10054F986 /* ELCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B9DD31AE6FFE10054F986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8B9DD41AE6FFE10054F986 /* ELCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELCollectionViewTests.m; sourceTree = "<group>"; };
 		FE8B9DE01AE6FFF90054F986 /* AAPLDataSource+Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AAPLDataSource+Headers.h"; sourceTree = "<group>"; };
@@ -153,14 +140,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE8B9DCA1AE6FFE10054F986 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE8B9DCE1AE6FFE10054F986 /* ELCollectionView.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -177,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				FE8B9DC21AE6FFE10054F986 /* ELCollectionView.framework */,
-				FE8B9DCD1AE6FFE10054F986 /* ELCollectionViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,24 +370,6 @@
 			productReference = FE8B9DC21AE6FFE10054F986 /* ELCollectionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FE8B9DCC1AE6FFE10054F986 /* ELCollectionViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE8B9DDB1AE6FFE10054F986 /* Build configuration list for PBXNativeTarget "ELCollectionViewTests" */;
-			buildPhases = (
-				FE8B9DC91AE6FFE10054F986 /* Sources */,
-				FE8B9DCA1AE6FFE10054F986 /* Frameworks */,
-				FE8B9DCB1AE6FFE10054F986 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE8B9DD01AE6FFE10054F986 /* PBXTargetDependency */,
-			);
-			name = ELCollectionViewTests;
-			productName = ELCollectionViewTests;
-			productReference = FE8B9DCD1AE6FFE10054F986 /* ELCollectionViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -420,9 +380,6 @@
 				ORGANIZATIONNAME = "Elton Livera";
 				TargetAttributes = {
 					FE8B9DC11AE6FFE10054F986 = {
-						CreatedOnToolsVersion = 6.3;
-					};
-					FE8B9DCC1AE6FFE10054F986 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -440,20 +397,12 @@
 			projectRoot = "";
 			targets = (
 				FE8B9DC11AE6FFE10054F986 /* ELCollectionView */,
-				FE8B9DCC1AE6FFE10054F986 /* ELCollectionViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FE8B9DC01AE6FFE10054F986 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE8B9DCB1AE6FFE10054F986 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,23 +445,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE8B9DC91AE6FFE10054F986 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE8B9DD51AE6FFE10054F986 /* ELCollectionViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FE8B9DD01AE6FFE10054F986 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE8B9DC11AE6FFE10054F986 /* ELCollectionView */;
-			targetProxy = FE8B9DCF1AE6FFE10054F986 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FE8B9DD61AE6FFE10054F986 /* Debug */ = {
@@ -635,36 +568,6 @@
 			};
 			name = Release;
 		};
-		FE8B9DDC1AE6FFE10054F986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ELCollectionViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FE8B9DDD1AE6FFE10054F986 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ELCollectionViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,14 +587,7 @@
 				FE8B9DDA1AE6FFE10054F986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FE8B9DDB1AE6FFE10054F986 /* Build configuration list for PBXNativeTarget "ELCollectionViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE8B9DDC1AE6FFE10054F986 /* Debug */,
-				FE8B9DDD1AE6FFE10054F986 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

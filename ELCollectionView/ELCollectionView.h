@@ -18,6 +18,9 @@ FOUNDATION_EXPORT const unsigned char ELCollectionViewVersionString[];
 
 #import <ELCollectionView/ELCollectionViewController.h>
 
+#import <ELCollectionView/AAPLCollectionViewGridLayoutAttributes.h>
+#import <ELCollectionView/AAPLCollectionViewGridLayout.h>
+
 #import <ELCollectionView/AAPLStateMachine.h>
 #import <ELCollectionView/AAPLLayoutMetrics.h>
 #import <ELCollectionView/AAPLContentLoading.h>
